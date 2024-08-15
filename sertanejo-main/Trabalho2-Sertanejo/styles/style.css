@@ -99,7 +99,7 @@ button {
     text-align: center;
     margin: 20px 10px;
     border-radius: 25px;
-    border: 2px solid #627348;
+    border: 2px solid #91AA9D;
     background: transparent;
     color: #fff;
     cursor: pointer;
@@ -108,7 +108,7 @@ button {
 }
 
 button .spanContainer {
-    background: #627348;
+    background: #91AA9D;
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -179,7 +179,7 @@ button:hover .spanContainer {
 }
 
 .container-fluid::-webkit-scrollbar-thumb {
-    background-color: #5d688a; /* Cor da barra de rolagem */
+    background-color: #91AA9D; /* Cor da barra de rolagem */
 }
 
 .social-bar {
@@ -226,13 +226,13 @@ button:hover .spanContainer {
   
   #social-midia .social-icon i {
     font-size: 32px; /* Aumenta o tamanho do ícone */
-    color: #E8F2D0; /* Cor dos ícones sociais */
+    color: #D1DBBD; /* Cor dos ícones sociais */
   }
   
   #social-midia .social-nome {
     font-family: 'Arvo', serif;
     font-style: italic;
-    color: #E8F2D0; /* Cor do nome */
+    color: #D1DBBD; /* Cor do nome */
     transform: rotate(-90deg); /* Nome deitado */
     white-space: nowrap;
     margin-top: 50px;
@@ -302,11 +302,11 @@ button:hover .spanContainer {
 }
 
 .ingresso:hover {
-    background-color: #5a6dd8;
+    background-color: #3E606F;
 }
 
 .agendona {
-    background-color: #304173;
+    background-color: #193441;
     z-index: 0; /* Menor valor para ficar atrás do gradiente */
 }
 
@@ -329,49 +329,23 @@ button:hover .spanContainer {
     padding: 20px;
     margin-top: 60px; 
 }
-.secaobio h1 {
+.secaobio h1, .secaobio h2, .secaobio h3 {
     color: #f7e0cb;
     font-size: 50px;
     margin: 20px 10px 10px 40px;
 }
-.secaobio h2 {
-    color: #f7e0cb;
-    font-size: 50px;
-    margin: 20px 10px 10px 40px;
-    padding: 0 0 0 30px;
-}
-.secaobio h3 {
-    color: #f7e0cb;
-    font-size: 50px;
-    margin: 20px 10px 10px 50px;
-    padding: 0 0 0 30px;
-}
-
-.secaobio p {
+.secaobio p, .secaobio #Iniciocarreira, .secaobio #Ascencaosucesso {
     color: #e7c09c;
     font-size: 25px; 
     margin: 20px 0px 10px 40px;
-    padding: 0 0 0 20px;
+    padding-left: 20px;
 }
-.secaobio #Iniciocarreira {
-    color: #e7c09c;
-    font-size: 25px; 
-    margin: 20px 0px 10px 50px;
-    padding: 0 0 0 30px;
-}
-.secaobio #Ascencaosucesso{
-    color: #e7c09c;
-    font-size: 25px; 
-    margin: 20px 0px 10px 60px;
-    padding: 0 0 0 40px;
-}
-
 .secaobio {
     background-color: #38545f;
     max-width: 50%;
     flex: 30%; 
-    border-radius: 5%;
-    
+    border-radius: 50px;
+    padding: 20px;
 }
 
 .imagebio {
@@ -386,7 +360,6 @@ button:hover .spanContainer {
 
 .secao-bio-adicional {
     max-width: 50%;
-    ;
     border-radius: 5%;
     background-color: #38545f;
     color: #e7c09c;
